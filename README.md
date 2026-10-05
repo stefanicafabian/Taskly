@@ -115,3 +115,28 @@ REQUISITI DI DOMINIO
 99. Le segnalazioni di utenti, Gig e recensioni devono seguire una procedura di moderazione.
 100. Le procedure di assistenza e gestione delle controversie devono rispettare le regole della piattaforma.
 
+--------------------------------------------------------------------------------------------------------------------------------
+
+analisi S.W.O.T
+
+STRENGHTS
+-Ampia varietà di servizi disponibili
+-Piattaforma facile e intuitiva da usare
+-Possibilità di confrontare prezzi, recensioni e portfolio
+-Modello di business scalabile
+
+WEAKNESSES 
+-Difficile garantire la qualità di tutti i servizi
+-Forte concorrenza tra freelance
+-Dipendenza dalle recensioni degli utenti
+-Costi elevati per attirare nuovi clienti
+
+OPPORTUNITIES
+-Crescita del lavoro freelance e da remoto
+-Espansione in nuovi mercati internazionali
+-Creazione di servizi premium per aziende
+
+THREATS
+-Forte concorrenza di altre piattaforme
+-AI che può sostituire alcuni servizi
+-Rischio di truffe e problemi di sicurezza
