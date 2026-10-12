@@ -140,3 +140,6 @@ THREATS
 -Forte concorrenza di altre piattaforme
 -AI che può sostituire alcuni servizi
 -Rischio di truffe e problemi di sicurezza
+
+
+![caso1](https://yuml.me/diagram/scruffy/usecase/%5BCustomer%5D-(Sign%20In),%5BCustomer%5D-(Sign%20Out),%5BCustomer%5D-(Forgot%20Password),%5BCustomer%5D-(Reset%20Password),%5BCustomer%5D-(Verify%20Email),%5BCustomer%5D-(Resend%20Verification%20Email),%5BCustomer%5D-(Remember%20Me),%5BCustomer%5D-(Verify%202FA%20Code),(Sign%20In)>(Validate%20Credentials),(Sign%20In)>(Check%20Account%20Status),(Sign%20In)>(Verify%202FA%20Code),(Forgot%20Password)>(Send%20Reset%20Email),(Forgot%20Password)>(Validate%20Email),(Reset%20Password)>(Validate%20Reset%20Token),(Reset%20Password)>(Validate%20New%20Password))
