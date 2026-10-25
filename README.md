@@ -7,113 +7,43 @@ concept:
 3)concede la possibilita' di monetizzare occasionalemte il proprio tempo anche localmente, in maniera asente da contratto lavorativo.
 
 REQUISITI FUNZIONALI
-
-1. Registrazione account
-2. Login e logout
-3. Verifica e recupero account
-4. Cambio e recupero password
-5. Autenticazione a due fattori (2FA)
-6. Gestione profilo utente
-7. Foto, bio e informazioni personali
-8. Profilo pubblico del venditore
-9. Portfolio del venditore
-10. Impostazioni account e privacy
-11. Eliminazione account
-12. Gestione notifiche
-13. Gestione categorie e sottocategorie
-14. Creazione Gig
-15. Modifica e eliminazione Gig
-16. Pubblicazione e disattivazione Gig
-17. Gestione immagini e video del Gig
-18. Gestione FAQ del Gig
-19. Gestione pacchetti Basic, Standard e Premium
-20. Gestione extra e servizi aggiuntivi
-21. Configurazione dei tempi di consegna
-22. Ricerca dei servizi
-23. Filtri e ordinamento dei risultati
-24. Visualizzazione dei Gig
-25. Servizi consigliati
-26. Gestione servizi preferiti
-27. Richiesta informazioni al venditore
-28. Chat tra cliente e venditore
-29. Chat in tempo reale
-30. Invio di immagini e file nella chat
-31. Stato online/offline e notifiche dei messaggi
-32. Gestione posta in arrivo e storico conversazioni
-33. Creazione di offerte personalizzate
-34. Gestione delle trattative
-35. Checkout e riepilogo dell'acquisto
-36. Pagamento con carta
-37. Pagamento tramite Stripe e PayPal
-38. Generazione della ricevuta di acquisto
-39. Acquisto di un servizio
-40. Creazione e gestione degli ordini
-41. Visualizzazione dello stato dell'ordine
-42. Dashboard del venditore
-43. Gestione degli ordini in corso
-44. Consegna del lavoro
-45. Accettazione della consegna
-46. Richiesta di modifica del lavoro
-47. Annullamento dell'ordine
-48. Gestione delle dispute
-49. Gestione dei rimborsi
-50. Gestione del saldo del venditore
-51. Richiesta di prelievo
-52. Storico delle transazioni
-53. Cronologia degli acquisti e delle vendite
-54. Recensioni tra cliente e venditore
-55. Sistema di rating a stelle
-56. Visualizzazione della media delle recensioni
-57. Risposta del venditore alle recensioni
-58. Segnalazione delle recensioni
-59. Visualizzazione degli ordini completati
-60. Gestione dei badge del venditore
-61. Statistiche e grafici delle vendite
-62. Visualizzazioni, click e conversion rate dei Gig
-63. Gestione della disponibilità del venditore
-64. Notifiche relative a ordini, recensioni, pagamenti e consegne
-65. Dashboard amministratore
-66. Gestione di utenti, venditori, Gig, categorie e ordini
-67. Approvazione, rifiuto, sospensione e ban
-68. Gestione delle segnalazioni e delle dispute
-69. Sistema di coupon, sconti e referral
-70. Sistema di assistenza, ticket e raccomandazione intelligente
-
+1. Gestione account: registrazione, login, logout, verifica dell'account e recupero password.
+2. Gestione profilo: modifica delle informazioni personali, foto, bio, privacy ed eliminazione dell'account.
+3. Profilo venditore: creazione del profilo pubblico e gestione del portfolio.
+4. Gestione notifiche: ricezione e configurazione delle notifiche della piattaforma.
+5. Gestione categorie: organizzazione dei servizi in categorie e sottocategorie.
+6. Gestione Gig: creazione, modifica, eliminazione, pubblicazione e disattivazione dei servizi.
+7. Personalizzazione Gig: gestione di immagini, video, FAQ, pacchetti, extra e tempi di consegna.
+8. Ricerca servizi: ricerca dei Gig con filtri, ordinamento e visualizzazione dei risultati.
+9. Servizi preferiti e consigliati: salvataggio dei preferiti e suggerimento di servizi pertinenti.
+10. Chat: comunicazione tra clienti e venditori con invio di file e notifiche dei messaggi.
+11. Offerte personalizzate: creazione di preventivi e gestione delle trattative.
+12. Gestione acquisti: checkout, riepilogo dell'ordine e acquisto dei servizi.
+13. Pagamenti: elaborazione dei pagamenti tramite carta, Stripe e PayPal, con generazione delle ricevute.
+14. Gestione ordini: creazione, monitoraggio e visualizzazione dello stato degli ordini.
+15. Consegna dei lavori: consegna, accettazione, richiesta di modifiche e annullamento degli ordini.
+16. Dispute e rimborsi: gestione delle controversie, delle richieste di assistenza relative agli ordini e dei rimborsi.
+17. Saldo e prelievi: gestione del saldo del venditore, richieste di prelievo e storico delle transazioni.
+18. Recensioni e valutazioni: assegnazione di stelle, pubblicazione di recensioni, risposte e segnalazioni.
+19. Dashboard e statistiche: visualizzazione delle vendite, degli ordini, dei click, delle visualizzazioni e del tasso di conversione.
+20. Amministrazione: gestione di utenti, Gig, categorie, ordini, segnalazioni, moderazione, coupon, referral e assistenza.
 REQUISITI NON FUNZIONALI
-
-71. Il sistema deve garantire tempi di risposta rapidi per le operazioni principali.
-72. Il sistema deve supportare un elevato numero di utenti contemporaneamente.
-73. Il sistema deve garantire elevata disponibilità e affidabilità del servizio.
-74. Il sistema deve proteggere i dati personali e sensibili degli utenti.
-75. Il sistema deve garantire la sicurezza delle transazioni e dei pagamenti.
-76. Il sistema deve essere accessibile da computer, tablet e smartphone.
-77. Il sistema deve garantire la scalabilità della piattaforma.
-78. Il sistema deve effettuare backup periodici dei dati.
-79. Il sistema deve garantire l'integrità e la consistenza dei dati.
-80. Il sistema deve garantire un adeguato livello di usabilità e accessibilità.
-
+21. Prestazioni: il sistema deve garantire tempi di risposta rapidi per le operazioni principali.
+22. Scalabilità: la piattaforma deve supportare la crescita del numero di utenti e servizi.
+23. Disponibilità e affidabilità: il sistema deve essere accessibile e funzionare correttamente, riducendo al minimo le interruzioni.
+24. Sicurezza: il sistema deve proteggere gli account e prevenire accessi non autorizzati.
+25. Privacy: i dati personali devono essere trattati in modo sicuro e nel rispetto della normativa applicabile.
+26. Sicurezza dei pagamenti: le transazioni devono essere protette da frodi e accessi non autorizzati.
+27. Compatibilità: la piattaforma deve funzionare su computer, tablet e smartphone.
+28. Usabilità e accessibilità: l'interfaccia deve essere semplice da utilizzare e accessibile a utenti con esigenze differenti.
+29. Backup e ripristino: il sistema deve effettuare backup periodici e consentire il recupero dei dati.
+30. Integrità dei dati: il sistema deve garantire coerenza, correttezza e consistenza delle informazioni archiviate.
 REQUISITI DI DOMINIO
-
-81. I servizi devono essere organizzati secondo categorie e sottocategorie.
-82. I venditori devono poter offrire servizi tramite pacchetti Basic, Standard e Premium.
-83. I prezzi, gli extra e i tempi di consegna devono essere definiti dal venditore secondo le regole della piattaforma.
-84. Ogni ordine deve essere associato a un cliente e a un venditore.
-85. Il pagamento deve essere effettuato secondo le modalità previste dalla piattaforma.
-86. La consegna deve rispettare il tempo concordato tra cliente e venditore.
-87. Il cliente deve poter accettare la consegna o richiedere una modifica.
-88. Gli annullamenti devono rispettare le condizioni previste dalla piattaforma.
-89. Le dispute devono seguire una procedura definita dalla piattaforma.
-90. I rimborsi devono rispettare le condizioni previste per ogni ordine.
-91. I venditori devono poter prelevare il saldo maturato secondo le regole della piattaforma.
-92. Le recensioni devono essere associate a ordini completati.
-93. Il sistema di rating deve utilizzare una valutazione a stelle.
-94. I badge devono essere assegnati sulla base di criteri definiti dalla piattaforma.
-95. Coupon, sconti e referral devono rispettare le relative condizioni.
-96. I Gig devono rispettare le regole e gli standard della piattaforma.
-97. Gli amministratori devono poter approvare o rifiutare i Gig in base alle regole stabilite.
-98. Gli utenti possono essere sospesi o bannati in caso di violazione delle regole.
-99. Le segnalazioni di utenti, Gig e recensioni devono seguire una procedura di moderazione.
-100. Le procedure di assistenza e gestione delle controversie devono rispettare le regole della piattaforma.
+31. Organizzazione dei servizi: ogni Gig deve appartenere a una categoria e, quando previsto, a una sottocategoria.
+32. Pacchetti e prezzi: i venditori possono definire pacchetti Basic, Standard e Premium, extra e tempi di consegna nel rispetto delle regole della piattaforma.
+33. Gestione degli ordini: ogni ordine deve essere associato a un cliente e a un venditore e deve rispettare le condizioni concordate per pagamento e consegna.
+34. Recensioni e reputazione: le recensioni devono essere associate a ordini completati, mentre rating e badge devono seguire criteri prestabiliti.
+35. Regole della piattaforma: annullamenti, rimborsi, dispute, coupon, referral e provvedimenti di moderazione devono rispettare le condizioni definite dalla piattaforma.
 
 --------------------------------------------------------------------------------------------------------------------------------
 
@@ -140,6 +70,72 @@ THREATS
 -Forte concorrenza di altre piattaforme
 -AI che può sostituire alcuni servizi
 -Rischio di truffe e problemi di sicurezza
+
+USER STORY
+
+
+Taskly è una piattaforma digitale ispirata a Fiverr, che mette in contatto clienti e freelance per acquistare e vendere servizi digitali e professionali. Gli utenti possono offrire competenze, pubblicare servizi, ricevere ordini, comunicare con i clienti e gestire i pagamenti direttamente sulla piattaforma.
+
+Le funzionalità sono organizzate considerando i tre criteri principali del progetto:
+
+Guadagno alto: commissioni sulle transazioni, abbonamenti premium e servizi aggiuntivi.
+
+Accessibile a chiunque: registrazione semplice, interfaccia intuitiva e possibilità di iniziare gratuitamente.
+
+Mantenimento dell'app: entrate ricorrenti, fidelizzazione degli utenti, sicurezza e aggiornamenti continui.
+
+1. ACCOUNT, PROFILAZIONE E CRESCITA
+- Come utente, voglio registrarmi e accedere a Taskly tramite Google, Apple o email, in modo da utilizzare la piattaforma rapidamente e senza procedure complicate.
+
+- Come freelance, voglio creare un profilo professionale con competenze, esperienze e portfolio, in modo da presentarmi ai clienti e aumentare le possibilità di ottenere incarichi.
+
+- Come utente, voglio invitare amici e colleghi tramite un codice referral, in modo da ottenere vantaggi e contribuire alla crescita della piattaforma.
+
+2. PUBBLICAZIONE DEI SERVIZI E ABBONAMENTI
+- Come freelance, voglio pubblicare servizi indicando descrizione, prezzo e tempi di consegna, in modo da offrire le mie competenze a potenziali clienti.
+
+- Come freelance, voglio creare pacchetti Base, Standard e Premium e aggiungere servizi extra a pagamento, in modo da soddisfare esigenze diverse e aumentare i miei guadagni.
+
+- Come freelance, voglio scegliere tra un piano gratuito e abbonamenti premium, in modo da utilizzare gli strumenti essenziali gratuitamente e accedere a funzionalità avanzate pagando un abbonamento.
+
+- Come amministratore, voglio applicare commissioni sulle transazioni e offrire promozioni a pagamento per i servizi, in modo da generare entrate e finanziare il mantenimento della piattaforma.
+
+3. RICERCA E GESTIONE DEGLI ORDINI
+- Come cliente, voglio cercare e filtrare i servizi in base a categoria, prezzo, recensioni e tempi di consegna, in modo da trovare il freelance più adatto alle mie esigenze.
+
+- Come cliente, voglio contattare il freelance, effettuare un ordine e monitorarne lo stato, in modo da gestire il progetto direttamente all'interno di Taskly.
+
+- Come freelance, voglio ricevere notifiche sui nuovi ordini e consegnare i lavori attraverso la piattaforma, in modo da organizzare le attività e rispettare le scadenze.
+
+4. PAGAMENTI E GUADAGNI
+- Come cliente, voglio conoscere il prezzo totale prima di confermare un ordine e pagare tramite sistemi sicuri, in modo da evitare costi imprevisti e acquistare in tranquillità.
+
+- Come freelance, voglio visualizzare i guadagni netti, le commissioni e lo storico dei pagamenti, in modo da controllare le mie entrate e gestire la mia attività.
+
+- Come amministratore, voglio automatizzare la gestione dei pagamenti e delle commissioni, in modo da ridurre gli errori e garantire un modello di business sostenibile.
+
+5. CHAT, INTELLIGENZA ARTIFICIALE E ASSISTENZA
+- Come utente, voglio comunicare con clienti e freelance tramite una chat integrata, in modo da chiarire dubbi e concordare i dettagli dei progetti senza uscire dall'app.
+
+- Come cliente, voglio utilizzare un assistente virtuale che mi suggerisca i servizi più adatti alle mie esigenze, in modo da trovare rapidamente le soluzioni migliori.
+
+- Come freelance, voglio ricevere suggerimenti basati sull'intelligenza artificiale per migliorare i miei annunci, in modo da aumentare la visibilità e ottenere più ordini.
+
+6. RECENSIONI, SICUREZZA E QUALITÀ
+- Come cliente, voglio leggere e lasciare recensioni dopo un ordine completato, in modo da valutare l'affidabilità dei freelance e contribuire alla qualità della piattaforma.
+
+- Come utente, voglio poter segnalare problemi, ordini non conformi o comportamenti scorretti, in modo da ricevere assistenza e tutelare i miei interessi.
+
+- Come amministratore, voglio proteggere i dati personali, prevenire le frodi e garantire la conformità al GDPR, in modo da mantenere Taskly sicura e affidabile.
+
+7. MARKETING E MANTENIMENTO DELLA PIATTAFORMA
+- Come amministratore, voglio creare campagne promozionali, codici sconto e programmi fedeltà, in modo da acquisire nuovi utenti e incentivare gli acquisti ripetuti.
+
+- Come amministratore, voglio monitorare vendite, commissioni, abbonamenti e abbandono degli utenti, in modo da migliorare la redditività e individuare opportunità di crescita.
+
+- Come amministratore, voglio aggiornare regolarmente la piattaforma e correggere eventuali problemi tecnici, in modo da garantire un servizio accessibile, sicuro e competitivo nel tempo.
+
+
 
 
 ![caso1](https://yuml.me/diagram/scruffy/usecase/%5BCustomer%5D-(Sign%20In),%5BCustomer%5D-(Sign%20Out),%5BCustomer%5D-(Forgot%20Password),%5BCustomer%5D-(Reset%20Password),%5BCustomer%5D-(Verify%20Email),%5BCustomer%5D-(Resend%20Verification%20Email),%5BCustomer%5D-(Remember%20Me),%5BCustomer%5D-(Verify%202FA%20Code),(Sign%20In)>(Validate%20Credentials),(Sign%20In)>(Check%20Account%20Status),(Sign%20In)>(Verify%202FA%20Code),(Forgot%20Password)>(Send%20Reset%20Email),(Forgot%20Password)>(Validate%20Email),(Reset%20Password)>(Validate%20Reset%20Token),(Reset%20Password)>(Validate%20New%20Password))
